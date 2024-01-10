@@ -1,0 +1,24 @@
+.app-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.header {
+  border-bottom: 1px solid #d4cbcb;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-title {
+  color: #88bae4;
+  font-weight: 700;
+}

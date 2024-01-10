@@ -1,0 +1,65 @@
+form {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+.inputForm-button {
+  background-color: #43aefc;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  padding: 10px;
+  border: 1px solid #d4cbcb;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  outline: none;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.inputForm-or-divider {
+  position: relative;
+  text-align: center;
+  font-weight: 200;
+  margin: 12px 0;
+  color: #999;
+}
+
+.inputForm-or-divider::before,
+.inputForm-or-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 44%;
+  height: 1px;
+  background-color: #d4cbcb;
+}
+
+.inputForm-or-divider::before {
+  right: 50%;
+  margin-right: 15px;
+}
+
+.inputForm-or-divider::after {
+  left: 50%;
+  margin-left: 15px;
+}
+
+.inputForm-error {
+  color: red;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 12px;
+}
